@@ -72,7 +72,7 @@ def upload_to_drive(image, name, folder="PiCam"):
     upload = service.files().create(body={"name": name,
                                           "parents": [folder_id]},
                                     media_body=image,
-                                    fields="output(id, name)").execute()
+                                    fields="id, name").execute()
     print(json.dumps(upload, sort_keys=True, indent=4))
 
     service.files().create(media_body=image).execute()
