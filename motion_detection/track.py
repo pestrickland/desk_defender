@@ -8,9 +8,8 @@ import gdrive
 import tempimg
 
 
-
 def main():
-
+    """Capture video from Raspberry Pi camera and detect movement."""
     parser = argparse.ArgumentParser("Configure image tracker.",
                                      parents=[gdrive.FLAGS])
     parser.add_argument("-u", "--upload", help="upload images to Google Drive",
@@ -37,7 +36,8 @@ def main():
     lastUploaded = datetime.datetime.now()
     motionCounter = 0
 
-    for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
+    for f in camera.capture_continuous(rawCapture, format="bgr",
+                                       use_video_port=True):
         frame = f.array
         timestamp = datetime.datetime.now()
         text = "Unoccupied"
@@ -78,12 +78,14 @@ def main():
             # Draw circle on contour centroid.
             cv2.circle(frame, (cx, cy), 10, (0, 0, 255))
 
+            print("Coordinates: {}, {}".format(cx, cy))
+
         # draw the text and timestamp on the frame
         ts = timestamp.strftime("%A %d %B %Y %I:%M:%S%p")
         cv2.putText(frame, "Room Status: {}".format(text), (10, 20),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-        cv2.putText(frame, ts, (10, frame.shape[0] - 10), cv2.FONT_HERSHEY_SIMPLEX,
-            0.35, (0, 0, 255), 1)
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        cv2.putText(frame, ts, (10, frame.shape[0] - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.35, (0, 0, 255), 1)
 
         if args.upload:
             if text == "Occupied":
