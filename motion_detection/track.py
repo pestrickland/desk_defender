@@ -54,22 +54,29 @@ def main():
         # threshold the delta image, dilate the thresholded image to fill
         # in holes, then find contours on thresholded image
         thresh = cv2.threshold(frameDelta, 5, 255,
-            cv2.THRESH_BINARY)[1]
+                               cv2.THRESH_BINARY)[1]
         thresh = cv2.dilate(thresh, None, iterations=2)
-        (dummy, cnts, dummy) = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
-            cv2.CHAIN_APPROX_SIMPLE)
+        (dm, contours, dm) = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
+                                              cv2.CHAIN_APPROX_SIMPLE)
 
-        # loop over the contours
-        for c in cnts:
-            # if the contour is too small, ignore it
+        # Loop over each contour.
+        for c in contours:
+            # If the contour is too small, ignore it.
             if cv2.contourArea(c) < 5000:
                 continue
 
-            # compute the bounding box for the contour, draw it on the frame,
-            # and update the text
+            # Compute the bounding box for the contour, draw it on the frame,
+            # and update the text.
             (x, y, w, h) = cv2.boundingRect(c)
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
             text = "Occupied"
+
+            moments = cv2.moments(c)
+            cx = int(moments["m10"] / moments["m00"])
+            cy = int(moments["m01"] / moments["m00"])
+
+            # Draw circle on contour centroid.
+            cv2.circle(frame, (cx, cy), 10, (0, 0, 255))
 
         # draw the text and timestamp on the frame
         ts = timestamp.strftime("%A %d %B %Y %I:%M:%S%p")
@@ -88,8 +95,6 @@ def main():
                         cv2.imwrite(t.path, frame)
 
                         print("[UPLOAD] {}".format(ts))
-                        # path = "{base_path}/{timestamp}.jpg".format(
-                        #        base_path="", timestamp=ts)
                         file_name = "PiCam {}".format(ts)
                         gdrive.upload_to_drive(t.path, file_name)
                         t.cleanup()
