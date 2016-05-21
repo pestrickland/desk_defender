@@ -15,7 +15,8 @@ from oauth2client import tools
 SCOPES = "https://www.googleapis.com/auth/drive.file"
 CLIENT_SECRET_FILE = "client_secret.json"
 APPLICATION_NAME = "Desk Defender Image Processor"
-FLAGS = argparse.ArgumentParser(parents=[tools.argparser], add_help=False)
+
+flags = argparse.ArgumentParser(parents=[tools.argparser], add_help=False)
 
 def get_credentials():
     """Get valid user credentials from storage.
@@ -57,7 +58,7 @@ def upload_to_drive(image, name, folder="PiCam"):
     query = ("mimeType = 'application/vnd.google-apps.folder' and "
              "name contains '{}'".format(folder))
 
-    response = service.files.list(q=query, fields="files(id, name)").execute()
+    response = service.files().list(q=query, fields="files(id, name)").execute()
 
     if response.get("files", [])[0].get("name") == folder:
         # Get id of existing folder named `folder`.

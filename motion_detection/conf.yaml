@@ -1,0 +1,12 @@
+---
+show_video: False
+upload: False
+min_upload_seconds: 3
+min_motion_frames: 8
+camera_warmup_time: 1
+delta_thresh: 5
+resolution: [640, 480]
+min_area: 5000
+framerate: 20
+picamera: False
+...
