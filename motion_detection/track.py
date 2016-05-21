@@ -8,50 +8,35 @@ from imutils.video import VideoStream
 import gdrive
 import tempimg
 import logging
-from picamera import PiCamera
-from picamera.array import PiRGBArray
 
 
-class Camera():
-	"""A camera object."""
-	
-	def __init__(self, args):
-		self.args = args
-		self.stopped = False
 
-	def start(self):
+			# if self.stopped == True:
+			# 	break
 
-		stream = VideoStream(usePiCamera=args["picamera"] > 0).start()
-		time.sleep(2)
 
-		while True:
-			# Grab a frame and resize it.
-			frame = stream.read()
-			frame = imutils.resize(frame, width=400)
 
-			if self.stopped == True:
-				break
-
-			
-
-			if key == ord("q"):
-				self.stopped = True	
+			# if key == ord("q"):
+			# 	self.stopped = True
 
 
 class Tracker():
     """A motion tracker object."""
 
     def __init__(self, conf):
+        """Initialise video stream.
+
+        Arguments:
+            conf (dict): Configuration settings.
+        """
         super(Tracker, self).__init__()
         self.conf = conf
         self.resolution = tuple(conf["resolution"])
         self.framerate = conf["framerate"]
         self.min_area = conf["min_area"]
-        camera = PiCamera()
-        camera.resolution = self.resolution
-        camera.framerate = self.framerate
-        self.camera = camera
-
+        self.stopped = False
+        self.stream = VideoStream(usePiCamera=conf["picamera"] > 0).start()
+        time.sleep(2)
         last_uploaded = datetime.datetime.now()
         motion_counter = 0
 
@@ -73,19 +58,18 @@ class Tracker():
         #       by the detection `while` loop.
         average = None
 
-        for f in self.camera.capture_continuous(self.raw_capture,
-                                                format="bgr",
-                                                use_video_port=True):
-            frame = f.array
-            timestamp = datetime.datetime.now()
-            text = "No motion detected"
+        while True:
+            # Grab a frame and resize it.
+            frame = self.stream.read()
             frame = imutils.resize(frame, width=image_width)
+
+            # Convert frame to greyscale and apply blur.
             grey = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             grey = cv2.GaussianBlur(grey, (21, 21), 0)
             if average is None:
                 logging.info("Starting background model")
                 average = grey.copy().astype("float")
-                self.raw_capture.truncate(0)
+                # self.raw_capture.truncate(0)
                 continue
             cv2.accumulateWeighted(grey, average, 0.5)
             frame_delta = cv2.absdiff(grey, cv2.convertScaleAbs(average))
@@ -138,7 +122,7 @@ def main():
                         action="store_true")
     args = parser.parse_args()
 
-    camera = Camera(args)
+
 
 
     if args.upload:
@@ -166,4 +150,4 @@ def main():
         rawCapture.truncate(0)
 
 if __name__ == '__main__':
-    main()
+     main()
