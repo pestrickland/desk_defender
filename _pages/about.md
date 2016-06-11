@@ -12,4 +12,4 @@ I became very interested in promoting STEM subjects early in 2016. Coupled with 
 
 I set myself an ambitious target:
 
-    Design a system that can automatically shoot down a paper aeroplane
+> Design a system that can automatically shoot down a paper aeroplane
