@@ -18,3 +18,18 @@ main:
 systems:
   - title: Overview
     url: /systems/
+
+  - title: Major Systems
+    children:
+      - title: "Acquisition"
+        url: /systems/acquisition/
+      - title: "Designation"
+        url: /systems/designation/
+      - title: "Tracking"
+        url: /systems/tracking/
+      - title: "Gun"
+        url: /systems/gun/
+      - title: "Power Supply"
+        url: /systems/power/
+      - title: "Diagnostics"
+        url: /systems/diagnostics/
