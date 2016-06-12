@@ -230,6 +230,14 @@ defaults:
   # _collections
   - scope:
       path: ""
-      type: collections
+      type: systems
     values:
       layout: single
+      author_profile: false
+      share: true
+
+# Collections
+collections:
+    systems:
+      output: true
+      permalink: /:collection/:path/
