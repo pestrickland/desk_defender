@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : *name
-  avatar           : "bio-photo.jpg"
+  avatar           : "https://www.gravatar.com/avatar/98893d5c952a5dc818c3ff707b4e38b2"
   bio              : "An engineer."
   location         : "United Kingdom"
   email            : "paul@pestrickland.co.uk"
