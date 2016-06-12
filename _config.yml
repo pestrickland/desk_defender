@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "deskdefender"
 facebook:
   username               :
   app_id                 :
@@ -75,18 +75,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
-  google_plus      :
+  github           : "pestrickland"
+  google_plus      : "PaulStricklandE"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "paul-strickland-6724437"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "pestrickland"
   vine             :
   weibo            :
   xing             :
