@@ -227,7 +227,7 @@ defaults:
     values:
       layout: single
 
-  # _collections
+  # _systems
   - scope:
       path: ""
       type: systems
@@ -235,6 +235,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      sidebar:
+        nav: "systems"
 
 # Collections
 collections:
