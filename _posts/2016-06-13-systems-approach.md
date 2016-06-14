@@ -34,3 +34,4 @@ The original idea should work within the same constraints and limitations of thi
 * Power supply
 * Logging/diagnostics
 
+![System outline]({{ site.url }}{{ site.baseurl }}/images/system_outline.svg)
