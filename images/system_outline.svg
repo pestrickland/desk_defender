@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7403666"
-     inkscape:cx="541.7478"
-     inkscape:cy="241.23662"
+     inkscape:cx="461.22827"
+     inkscape:cy="354.67166"
      inkscape:document-units="px"
-     inkscape:current-layer="g4223"
+     inkscape:current-layer="g4357"
      showgrid="true"
      units="px"
      inkscape:snap-grids="true"
@@ -40,12 +40,24 @@
      inkscape:object-nodes="true"
      inkscape:window-width="2560"
      inkscape:window-height="1416"
-     inkscape:window-x="2560"
+     inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-to-guides="true">
     <inkscape:grid
        type="xygrid"
        id="grid4235" />
+    <sodipodi:guide
+       position="615.00001,405.00001"
+       orientation="0,1"
+       id="guide4330" />
+    <sodipodi:guide
+       position="350,350.00001"
+       orientation="0,1"
+       id="guide4338" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -67,37 +79,56 @@
     <use
        x="0"
        y="0"
-       xlink:href="#use4252"
-       id="use4254"
-       transform="translate(160,0)"
-       width="100%"
-       height="100%"
-       style="fill:#737f8d" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use4250"
-       id="use4252"
-       transform="translate(160,0)"
+       xlink:href="#path4209"
+       id="use4227"
+       transform="translate(320,0)"
        width="100%"
        height="100%" />
+    <path
+       style="fill:none;stroke:#a40000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 240,642.36216 0,-5 80,0 5,-5 35,-35 0,-15"
+       id="path4225"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;stroke:#a40000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 720,642.36216 0,-5 -85,0 -40,-40 0,-15"
+       id="path4223"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#a40000;stroke:#a40000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 400,582.36216 0,5"
+       id="path4219"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#a40000;stroke:#a40000;stroke-width:4;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 560,582.36216 0,60"
+       id="path4221"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4209"
+       d="m 330,582.36216 -20,-15 20,-15 z"
+       style="fill:#a40000;stroke:none;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
     <use
        x="0"
        y="0"
        xlink:href="#path4246"
        id="use4250"
-       transform="translate(160,5.9604645e-8)"
+       transform="translate(160,15)"
        width="100%"
        height="100%" />
     <path
        style="fill:#2e3436;stroke:none;stroke-width:2;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 151,561.36216 20,30 -20,30 z"
+       d="m 150,567.36216 20,25 -20,25 z"
        id="path4246"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <g
        id="g4194"
-       transform="translate(-25.428581,6.1427997)">
+       transform="translate(-26.428581,7.1427996)">
       <rect
          y="545.21936"
          x="36.428581"
@@ -119,7 +150,7 @@
     </g>
     <g
        id="g4199"
-       transform="translate(-83.285996,6.1427998)">
+       transform="translate(-84.285995,7.1427996)">
       <rect
          style="fill:#fce94f;stroke:#2e3436;stroke-width:1.99999976;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4142"
@@ -145,7 +176,7 @@
     </g>
     <g
        id="g4229"
-       transform="translate(-83.285721,-20.714317)">
+       transform="translate(-84.285721,-15.714317)">
       <rect
          y="678.07648"
          x="254.28572"
@@ -169,35 +200,56 @@
            x="324.53839"
            sodipodi:role="line">designation</tspan></text>
     </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4250"
+       id="use4252"
+       transform="translate(160,55)"
+       width="100%"
+       height="100%" />
     <g
-       id="g4205"
-       transform="translate(-136.14285,6.1427997)">
-      <rect
-         y="545.21936"
-         x="467.14285"
-         height="80"
-         width="140"
-         id="rect4156"
-         style="fill:#fcaf3e;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4158"
-         y="576.81482"
-         x="537.85144"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         xml:space="preserve"><tspan
+       id="g4311"
+       transform="translate(-4.5389556,2.9999964)">
+      <g
+         transform="translate(-136.14285,59.1428)"
+         id="g4205">
+        <rect
+           style="fill:#fcaf3e;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4156"
+           width="140"
+           height="80"
+           x="471.68179"
+           y="545.21936" />
+        <text
+           xml:space="preserve"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           x="537.85144"
            y="576.81482"
-           x="537.85144"
-           id="tspan4160"
-           sodipodi:role="line">Target</tspan><tspan
-           id="tspan4162"
-           y="604.93982"
-           x="537.85144"
-           sodipodi:role="line">tracking</tspan></text>
+           id="text4158"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4160"
+             x="537.85144"
+             y="576.81482">Target</tspan><tspan
+             sodipodi:role="line"
+             x="537.85144"
+             y="604.93982"
+             id="tspan4162">tracking</tspan></text>
+      </g>
     </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4252"
+       id="use4254"
+       transform="translate(160,39.999995)"
+       width="100%"
+       height="100%"
+       style="fill:#737f8d" />
     <g
        id="g4211"
-       transform="translate(-192.57141,6.1427997)">
+       transform="translate(-193.57141,117.1428)">
       <rect
          style="fill:#ce5c00;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4164"
@@ -223,7 +275,7 @@
     </g>
     <g
        id="g4217"
-       transform="translate(-251.85718,3.9999774)">
+       transform="translate(-252.85718,114.99997)">
       <rect
          y="547.36218"
          x="902.85718"
@@ -235,45 +287,226 @@
          sodipodi:linespacing="125%"
          id="text4174"
          y="579.0675"
-         x="973.44495"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+         x="973.40649"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          xml:space="preserve"><tspan
            id="tspan4178"
            y="579.0675"
-           x="973.44495"
+           x="973.40649"
            sodipodi:role="line"
-           style="-inkscape-font-specification:'Roboto Medium';font-family:Roboto;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;">Gun</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'">Gun</tspan><tspan
            id="tspan4184"
            y="607.1925"
-           x="973.44495"
+           x="973.40649"
            sodipodi:role="line"
-           style="-inkscape-font-specification:'Roboto Medium';font-family:Roboto;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;">firing</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'">firing</tspan></text>
     </g>
     <g
-       id="g4223"
-       transform="translate(-252.3,-25.720556)">
+       id="g4224"
+       transform="translate(-0.55718994,110.14921)">
       <rect
          style="fill:#babdb6;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect4186"
          width="140"
          height="80"
-         x="902.85718"
-         y="677.93353" />
+         x="650.55719"
+         y="652.21295" />
       <text
          xml:space="preserve"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         x="973.47791"
-         y="711.86908"
+         x="721.17792"
+         y="686.1485"
          id="text4188"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
-           x="973.47791"
-           y="711.86908"
+           x="721.17792"
+           y="686.1485"
            id="tspan4190">Ammunition</tspan><tspan
            sodipodi:role="line"
-           x="973.47791"
-           y="739.99408"
+           x="721.17792"
+           y="714.2735"
            id="tspan4192">feed</tspan></text>
     </g>
+    <g
+       transform="translate(-242.29999,64.279457)"
+       id="g4193">
+      <rect
+         y="798.0827"
+         x="252.29999"
+         height="30"
+         width="780.00006"
+         id="rect4180"
+         style="fill:#babdb6;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4182"
+         y="819.61774"
+         x="646.90997"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         xml:space="preserve"><tspan
+           y="819.61774"
+           x="646.90997"
+           sodipodi:role="line"
+           id="tspan4191">Power supply</tspan></text>
+    </g>
+    <g
+       id="g4200"
+       transform="translate(-112.29999,-305.72054)">
+      <rect
+         style="fill:#ef2929;stroke:#2e3436;stroke-width:1.99999976;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4202"
+         width="620.00006"
+         height="30.000002"
+         x="282.29999"
+         y="808.0827" />
+      <text
+         xml:space="preserve"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         x="592.62964"
+         y="829.23505"
+         id="text4204"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="592.62964"
+           y="829.23505"
+           id="tspan4232">Safety system</tspan></text>
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4246"
+       id="use4279"
+       transform="translate(160,95)"
+       width="100%"
+       height="100%" />
+    <g
+       id="g4318"
+       transform="translate(-1.0000028,113)">
+      <g
+         id="g4320"
+         transform="translate(-136.14285,59.1428)">
+        <rect
+           y="545.21936"
+           x="467.14285"
+           height="80"
+           width="140"
+           id="rect4322"
+           style="fill:#fcaf3e;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4324"
+           y="576.81482"
+           x="537.85144"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           xml:space="preserve"><tspan
+             id="tspan4328"
+             y="576.81482"
+             x="537.85144"
+             sodipodi:role="line">Manual</tspan><tspan
+             y="604.93982"
+             x="537.85144"
+             sodipodi:role="line"
+             id="tspan4334">steering</tspan></text>
+      </g>
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4246"
+       id="use4336"
+       transform="translate(320,150)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4254"
+       id="use4353"
+       transform="matrix(0,-1,1,0,17.637845,1392.3622)"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(-252.85718,4.9999774)"
+       id="g4357">
+      <rect
+         style="fill:#ef2929;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect4359"
+         width="140"
+         height="80"
+         x="902.85718"
+         y="547.36218" />
+      <text
+         xml:space="preserve"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+         x="973.10437"
+         y="581.62732"
+         id="text4361"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;"
+           sodipodi:role="line"
+           x="973.10437"
+           y="581.62732"
+           id="tspan4365">Kill</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;"
+           sodipodi:role="line"
+           x="973.10437"
+           y="609.75232"
+           id="tspan4369">switch</tspan></text>
+    </g>
+    <g
+       id="g4371"
+       transform="translate(-412.85718,4.9999774)">
+      <rect
+         y="547.36218"
+         x="742.85718"
+         height="30"
+         width="300"
+         id="rect4373"
+         style="fill:#ef2929;stroke:#2e3436;stroke-width:1.99999988;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4375"
+         y="570.68982"
+         x="892.4342"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:middle;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;"
+         xml:space="preserve"><tspan
+           id="tspan4379"
+           y="570.68982"
+           x="892.4342"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1">Interlocks</tspan></text>
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4209"
+       id="use4211"
+       transform="matrix(0,-1,1,0,-167.36216,917.36216)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4211"
+       id="use4213"
+       transform="translate(160,55)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4213"
+       id="use4215"
+       transform="translate(160,0)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use4211"
+       id="use4217"
+       transform="translate(-160,55)"
+       width="100%"
+       height="100%" />
   </g>
 </svg>
