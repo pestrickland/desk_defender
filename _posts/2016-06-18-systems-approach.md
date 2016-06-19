@@ -5,7 +5,7 @@ categories:
 tags:
     - Systems
     - Top-level design
-published: false
+published: true
 ---
 
 ## Motivation
