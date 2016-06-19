@@ -6,6 +6,8 @@ tags:
     - Systems
     - Top-level design
 published: true
+excerpt: "An overview of the different systems I intend to design."
+modified: 2016-06-19
 ---
 
 ## Motivation
