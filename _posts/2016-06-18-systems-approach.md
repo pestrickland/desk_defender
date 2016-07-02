@@ -1,10 +1,10 @@
 ---
 title: "A systems approach"
 categories:
-    - Design Decisions
+    - Design
 tags:
     - Systems
-    - Top-level design
+    - Top-level_design
 published: true
 excerpt: "An overview of the different systems I intend to design."
 modified: 2016-06-19
