@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-GB"
 title                    : "Desk Defender"
-title_separator          : "|"
+title_separator          : "-"
 name                     : &name "Paul Strickland"
 description              : "A project log."
 url                      : "https://pestrickland.github.io"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
