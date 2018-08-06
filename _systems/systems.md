@@ -19,13 +19,11 @@ permalink: /systems/
 
 ## Power supply
 
-To avoid the safety implications of high voltages, the majority of the system should be able to run on 5 V DC. Raspberry Pi can, as can Ardunio and various servos. Whilst I'm used to using mobile phone chargers for these supplies, higher power supplies are available, in the order of 25 W laptop-still bricks. This should be better, and still reduce the risk of having a bespoke or exposed mains supply to deal with.
+To avoid the safety implications of high voltages, the majority of the system should be able to run on 5 V DC. Raspberry Pi can, as can Ardunio and various servos. Whilst I'm used to using mobile phone chargers for these supplies, higher power supplies are available, in the order of 25 W laptop-style bricks. This should be better, and still reduce the risk of having a bespoke or exposed mains supply to deal with.
 
 The motors anticipated for the gun will probably draw more current. For this purpose, it might be best to use a dedicated power supply in the form of a LiPo battery.
 
 ### Safety
-
-*Is this a system?*
 
 Various aspects for safety need to be considered:
 
